@@ -194,11 +194,18 @@ p {
     .title-image {
         position: static;
         transform: rotate(0deg);
-
-
     }
 
     #title {
         text-align: center;
+    }
+    
+    .navbar{
+   margin: 0 0rem;
+    }
+
+    .container-fluid {
+        padding-left: 7%;
+        padding-right: 7%;
     }
 }
