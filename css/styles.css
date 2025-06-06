@@ -191,6 +191,47 @@ p {
 /* Media Queries */
 
 @media (max-width: 1028px) {
+
+    h1 {
+        font-family: "Montserrat-Bold", sans-serif;
+        font-size: 4.5rem;
+        font-weight: 900;
+        line-height: 1.5;
+    }
+
+    h2 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+    p{
+        font-size: 2rem;
+    }
+    /* Navigation bar */
+
+    .navbar {
+        margin: 0 0rem;
+    }
+
+    .navbar-brand {
+
+        font-size: 4.5rem;
+
+    }
+
+    .navbar-toggler {
+        font-size: 2.5rem;
+    }
+
+    .nav-link {
+        font-size: 2.5rem;
+    }
+
+    /* Title Section */
+
     .title-image {
         position: static;
         transform: rotate(0deg);
@@ -199,13 +240,51 @@ p {
     #title {
         text-align: center;
     }
-    
-    .navbar{
-   margin: 0 0rem;
-    }
 
     .container-fluid {
         padding-left: 7%;
         padding-right: 7%;
     }
+
+.btn{
+    font-size: 2.5rem;
+}
+
+
+/* Features Section */
+
+.features-images {
+    font-size: 6rem;
+    color: #ef8172;
+}
+
+.features-images:hover {
+    font-size: 6rem;
+    color: #ff4c68;
+}
+
+.features-title h3 {
+    font-size: 3.5rem;
+}
+
+/* Pricing Section */
+
+#pricing h3{
+    font-size: 2.5rem;
+}
+
+    /* Footer Section */
+
+    #footer i {
+        font-size: 2.5rem;
+        width: 7%;
+        padding-top: 2%;
+    }
+
+    #footer p {
+        padding: 2% 0;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
 }
