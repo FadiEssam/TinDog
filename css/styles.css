@@ -267,6 +267,17 @@ p {
     font-size: 3.5rem;
 }
 
+
+/* Testimonials Section */
+.carousel-inner {
+  height: 550px; /* Adjust to your preferred height */
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+
 /* Pricing Section */
 
 #pricing h3{
